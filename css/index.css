@@ -1,0 +1,401 @@
+@charset "UTF-8";
+html {
+  font-size: 100px;
+}
+
+body {
+  font-size: 15px;
+  font-family: "微软雅黑";
+  border: 0px;
+}
+
+* {
+  font-family: "微软雅黑";
+  box-sizing: border-box;
+  outline: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+@font-face {
+  font-family: 'iconfont';
+}
+
+.iconfont {
+  font-family: 'iconfont';
+}
+
+ul, li, ol, a {
+  text-decoration: none;
+  list-style: none;
+}
+
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 85.33333px;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 96px;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 100px;
+  }
+}
+
+@media screen and (min-width: 384px) {
+  html {
+    font-size: 102.4px;
+  }
+}
+
+@media screen and (min-width: 412px) {
+  html {
+    font-size: 109.86667px;
+  }
+}
+
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 110.4px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  html {
+    font-size: 160px;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  html {
+    font-size: 170.66667px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 204.8px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  html {
+    font-size: 213.33333px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  html {
+    font-size: 341.33333px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  html {
+    font-size: 384px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  html {
+    font-size: 426.66667px;
+  }
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container .ground {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.container .ground .ctr {
+  height: 100%;
+}
+
+.container .ground .outsite {
+  width: 100%;
+  height: 5rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+
+.container .ground .outsite .list-a {
+  width: 33.3%;
+  height: 50%;
+  float: left;
+  background: #004A7D;
+  opacity: 0.7;
+  text-align: center;
+  background: linear-gradient(#000, #004A7D);
+}
+
+.container .ground .outsite .list-a a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.container .ground .outsite .list-a a .iconfont {
+  font-size: 80px;
+  color: #000000;
+}
+
+.container .ground .outsite .list-a a .title {
+  font-size: 20px;
+  color: #fff;
+}
+
+.container .ground .outsite .list-a a .iconfont {
+  color: #DD4B24;
+}
+
+.container .ground .outsite .list-b {
+  width: 33.3%;
+  height: 50%;
+  float: left;
+  background: #004A7D;
+  opacity: 0.7;
+  text-align: center;
+  background: linear-gradient(#000, #004A7D);
+}
+
+.container .ground .outsite .list-b a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.container .ground .outsite .list-b a .iconfont {
+  font-size: 80px;
+  color: #000000;
+}
+
+.container .ground .outsite .list-b a .title {
+  font-size: 20px;
+  color: #fff;
+}
+
+.container .ground .outsite .list-b a .iconfont {
+  color: #ADD9E4;
+}
+
+.container .ground .outsite .list-e {
+  width: 33.3%;
+  height: 50%;
+  float: left;
+  background: #004A7D;
+  opacity: 0.7;
+  text-align: center;
+  background: #004A7D;
+}
+
+.container .ground .outsite .list-e a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  padding-top: 93%;
+}
+
+.container .ground .outsite .list-e a .iconfont {
+  font-size: 80px;
+  color: #000000;
+}
+
+.container .ground .outsite .list-e a .title {
+  font-size: 20px;
+  color: #fff;
+}
+
+.container .ground .outsite .list-e a .iconfont {
+  color: #FC0000;
+}
+
+.container .ground .outsite .list-f {
+  width: 33.3%;
+  height: 50%;
+  float: left;
+  background: #004A7D;
+  opacity: 0.7;
+  text-align: center;
+  background: #004A7D;
+}
+
+.container .ground .outsite .list-f a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  padding-top: 93%;
+}
+
+.container .ground .outsite .list-f a .iconfont {
+  font-size: 80px;
+  color: #000000;
+}
+
+.container .ground .outsite .list-f a .title {
+  font-size: 20px;
+  color: #fff;
+}
+
+.container .ground .outsite .list-f a .iconfont {
+  color: greenyellow;
+}
+
+.container .ground .outsite .list-c {
+  width: 33.3%;
+  height: 50%;
+  float: left;
+  background: linear-gradient(#000, #004A7D);
+  opacity: 0.7;
+  text-align: center;
+}
+
+.container .ground .outsite .list-c a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  padding-top: 10%;
+}
+
+.container .ground .outsite .list-c a .iconfont {
+  font-size: 80px;
+  color: #000000;
+}
+
+.container .ground .outsite .list-c a .title {
+  font-size: 20px;
+  color: #fff;
+}
+
+.container .ground .outsite .list-c a .iconfont {
+  font-size: 60px;
+  color: #FFFFFF;
+}
+
+.container .ground .outsite .list-c a .title {
+  line-height: 50px;
+}
+
+.container .ground .outsite .list-d {
+  width: 33.3%;
+  height: 50%;
+  float: left;
+  background: #004A7D;
+  opacity: 0.7;
+  text-align: center;
+}
+
+.container .ground .outsite .list-d a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  padding-top: 93%;
+}
+
+.container .ground .outsite .list-d a .iconfont {
+  font-size: 80px;
+  color: #000000;
+}
+
+.container .ground .outsite .list-d a .title {
+  font-size: 20px;
+  color: #fff;
+}
+
+.container .ground .outsite .list-d a .iconfont {
+  color: #FFB900;
+}
+
+.container .ground .outsite .list-g {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background: #467DA3;
+  z-index: 10;
+  position: absolute;
+  left: 0.83rem;
+  top: 1.5rem;
+  text-align: center;
+  opacity: 0.7;
+}
+
+.container .ground .outsite .list-g a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  padding-top: 0.3rem;
+}
+
+.container .ground .outsite .list-g a .iconfont {
+  font-size: 80px;
+  color: #000000;
+}
+
+.container .ground .outsite .list-g a .title {
+  font-size: 20px;
+  color: #fff;
+}
+
+.container .ground .outsite .list-g a .iconfont {
+  color: #000000;
+}
+
+@keyframes move-left {
+  0% {
+    left: -30%;
+  }
+  100% {
+    left: 20%;
+  }
+}
+
+@keyframes move-right {
+  from {
+    right: -30%;
+  }
+  to {
+    right: 20%;
+  }
+}
+
+.container .ground .header-left {
+  display: block;
+  font-size: 25px;
+  position: absolute;
+  left: 20%;
+  top: 5%;
+  color: #fff;
+  animation: move-left 1s linear;
+}
+
+.container .ground .header-right {
+  display: block;
+  font-size: 25px;
+  position: absolute;
+  right: 20%;
+  top: 10%;
+  color: #fff;
+  animation: move-right 1s linear;
+}
